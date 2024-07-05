@@ -2,32 +2,32 @@
 
 This project provides a software tool for the analysis of medical images (specifically lung CT scans) to detect the presence of lung cancer.
 
-**Table of Contents**
+## Table of Contents
 
-* [Project Overview](#project-overview)
-* [Installation](#installation)
-* [Usage](#usage)
-* [Disclaimer](#disclaimer)
-* [Additional Considerations ](#additional-considerations)
+- [Project Overview](#project-overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Disclaimer](#disclaimer)
+- [Additional Considerations ](#additional-considerations)
 
-**Project Overview**
+## Project Overview
 
 This project offers a user-friendly software tool to analyze lung CT scan images and estimate the likelihood of lung cancer. It leverages machine learning algorithms trained on a substantial dataset of medical images.
 
-**Important Note:** This tool is for informational purposes only and should not be a substitute for professional medical diagnosis. Always consult a qualified healthcare provider for any health concerns.
+## Important Note: This tool is for informational purposes only and should not be a substitute for professional medical diagnosis. Always consult a qualified healthcare provider for any health concerns.
 
-**Disclaimer**
+## Disclaimer 
 
 The accuracy of this tool can be limited by factors such as the quality of the input image, the complexity of the case, and the ongoing development of medical imaging technology. It is crucial to seek professional medical advice for diagnosis and treatment.
 
-**Installation**
+## Installation
 
-**Prerequisites:**
+## Prerequisites:
 
 - Python (version 3.6 or higher): Download and install from [https://www.python.org/downloads/](https://www.python.org/downloads/).
 - pip (package installer for Python): Usually comes bundled with Python installation. If not, use `get-pip.py` from [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
-**Steps:**
+## Steps:
 
 1. **Clone the Repository (if applicable):**
 
@@ -55,7 +55,7 @@ The accuracy of this tool can be limited by factors such as the quality of the i
 
    If there's no `requirements.txt` file, consult the project's documentation for a list of necessary libraries and install them individually using `pip install <library_name>`.
 
-**Usage**
+## Usage
 
 1. **Run the Application:**
 
@@ -85,20 +85,20 @@ The accuracy of this tool can be limited by factors such as the quality of the i
    The likelihood of lung cancer in the provided image is: Medium risk
    ```
 
-**Disclaimer**
+## Disclaimer
 
 The accuracy of this tool can be limited by factors such as the quality of the input image, the complexity of the case, and the ongoing development of medical imaging technology. It is crucial to seek professional medical advice for diagnosis and treatment.
 
-**Additional Considerations**
+## Additional Considerations
 
 This section delves into more advanced aspects of the project, which you can choose to implement depending on your goals:
 
-* **Model Training (if applicable):**
+- **Model Training (if applicable):**
    - If your project involves training a new model, you'll need a suitable dataset of lung CT scans (ideally obtained from a reputable medical institution with ethical considerations).
    - Training can be a complex process requiring significant computational resources. Consider cloud-based solutions or powerful GPUs if your hardware is limited.
-* **Model Selection and Evaluation:**
+_ **Model Selection and Evaluation:**
    - Explore different machine learning models (e.g., convolutional neural networks) and evaluation metrics (e.g., accuracy, precision, recall, F1-score) to find the best fit for your specific dataset and desired performance. Experimentation and fine-tuning are often necessary.
-* **Data Preprocessing and Augmentation:**
+- **Data Preprocessing and Augmentation:**
    - Ensure proper data preprocessing (e.g., resizing, normalization) to prepare the CT scans for model training.
    - Consider data augmentation techniques (e.g., rotation, flipping) to artificially expand the dataset and improve model generalizability.
 
