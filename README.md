@@ -14,7 +14,7 @@ This project provides a software tool for the analysis of medical images (specif
 
 This project offers a user-friendly software tool to analyze lung CT scan images and estimate the likelihood of lung cancer. It leverages machine learning algorithms trained on a substantial dataset of medical images.
 
-**Important Note: This tool is for informational purposes only and should not be a substitute for professional medical diagnosis. Always consult a qualified healthcare provider for any health concerns.**
+**Important Note:** This tool is for informational purposes only and should not be a substitute for professional medical diagnosis. Always consult a qualified healthcare provider for any health concerns.
 
 ## Disclaimer 
 
