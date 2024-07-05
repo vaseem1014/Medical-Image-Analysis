@@ -24,8 +24,8 @@ The accuracy of this tool can be limited by factors such as the quality of the i
 
 - ## Prerequisites:
 
-- Python (version 3.6 or higher): Download and install from [https://www.python.org/downloads/](https://www.python.org/downloads/).
-- pip (package installer for Python): Usually comes bundled with Python installation. If not, use `get-pip.py` from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+- 1 Python (version 3.6 or higher): Download and install from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+- 2 pip (package installer for Python): Usually comes bundled with Python installation. If not, use `get-pip.py` from [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
 - ## Steps:
 
